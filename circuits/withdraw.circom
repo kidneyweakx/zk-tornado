@@ -10,9 +10,9 @@ template Withdraw(levels) {
     signal input recipient; // not taking part in any computations
     signal input relayer;  // not taking part in any computations
     signal input fee;      // not taking part in any computations
-    signal private input nullifier;
-    signal private input pathElements[levels];
-    signal private input pathIndices[levels];
+    signal input nullifier;
+    signal input pathElements[levels];
+    signal input pathIndices[levels];
 
     component leafIndexNum = Bits2Num(levels);
     for (var i = 0; i < levels; i++) {
