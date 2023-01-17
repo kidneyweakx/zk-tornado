@@ -9,6 +9,7 @@
   "include": [
     "scripts",
     "test",
+    "src",
     "artifacts/contracts/types"
   ],
   "files": [
