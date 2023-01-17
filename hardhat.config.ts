@@ -18,11 +18,11 @@ const config: HardhatUserConfig = {
   },
   circom: {
     inputBasePath: "./circuits",
-    ptau: "https://hermezptau.blob.core.windows.net/ptau/powersOfTau28_hez_final_16.ptau",
+    ptau: "https://hermezptau.blob.core.windows.net/ptau/powersOfTau28_hez_final_14.ptau",
     circuits: [
       {
         name: "withdraw",
-        protocol: "plonk",
+        protocol: "groth16",
       },
     ],
   },
